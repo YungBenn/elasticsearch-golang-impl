@@ -42,7 +42,7 @@ func CreateIndex(ctx context.Context, index string) error {
 			"mappings": {
 			"properties": {
 				"field1": {
-				"type": "text"
+					"type": "text"
 				}
 			}
 		}
