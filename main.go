@@ -38,8 +38,8 @@ func CreateIndex(ctx context.Context, index string) error {
 	mapping := `{
 		"settings": {
 			"number_of_shards": 1
-			},
-			"mappings": {
+		},
+		"mappings": {
 			"properties": {
 				"field1": {
 					"type": "text"
